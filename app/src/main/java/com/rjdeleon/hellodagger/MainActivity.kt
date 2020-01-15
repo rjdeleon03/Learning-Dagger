@@ -18,10 +18,6 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-class Info @Inject constructor() {
-    val text = "Hello Dagger 2!"
-}
-
 
 
 

@@ -2,7 +2,7 @@ package com.rjdeleon.hellodagger
 
 import dagger.Component
 
-@Component
+@Component(modules = [Bag::class])
 interface MagicBox {
 
     /*
